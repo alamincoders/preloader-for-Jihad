@@ -20,6 +20,10 @@
   border-radius: 50%;
 }
 
+.spin_img {
+  animation: spin 1s linear infinite;
+}
+
 /*  */
 .spinner {
   width: 125px;
@@ -51,8 +55,17 @@
   margin: 8.9px;
 }
 
+/* laoding keyframe */
+
 @keyframes spinner-e04l1k {
   100% {
     transform: rotate(1turn);
+  }
+}
+
+/* spin image */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
 }
